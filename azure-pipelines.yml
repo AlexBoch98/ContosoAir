@@ -23,6 +23,8 @@ steps:
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifact: drop'
 
+trigger:
+  - master
     - task: FortifyOnDemandStatic@3
   inputs:
     FortifyProjects: 'https://github.com/ericmicrofocus/ContosoAir.git'
