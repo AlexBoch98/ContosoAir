@@ -1,3 +1,7 @@
+## Badge
+
+[![Build Status](https://dev.azure.com/MF-Eric/Contoso%20Air/_apis/build/status/ericmicrofocus.ContosoAir?branchName=master)](https://dev.azure.com/MF-Eric/Contoso%20Air/_build/latest?definitionId=4&branchName=master)
+
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
@@ -23,10 +27,6 @@ npm start
 ```
 
 This will run locally the server and attach to the CosmosDb Endpoint using mongodb connection string.
-
-## Badge
-
-[![Build Status](https://dev.azure.com/MF-Eric/Contoso%20Air/_apis/build/status/ericmicrofocus.ContosoAir?branchName=master)](https://dev.azure.com/MF-Eric/Contoso%20Air/_build/latest?definitionId=4&branchName=master)
 
 ## Azure Manual Deployment
 
