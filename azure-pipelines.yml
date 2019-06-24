@@ -10,7 +10,6 @@ steps:
     PersonalAccessTokenSecret: 'NlpvVHo_QlVSOCp3N0lreGFTVUJmZjN7WVI1cGFr0'
     TenantID: 'FranklinBank'
     EntitlementPreference: '2'
-
   - task: CopyFiles@2
     displayName: 'Copy Files to: $(build.artifactstagingdirectory)/Templates'
     inputs:
