@@ -45,3 +45,4 @@ steps:
       TenantID: 'FranklinBank'
       EntitlementPreference: '2'
       PurchaseEntitlements: true
+      PreferRemediation: true
