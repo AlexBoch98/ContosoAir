@@ -44,5 +44,5 @@ steps:
       PersonalAccessTokenSecret: 'NlpvVHo_QlVSOCp3N0lreGFTVUJmZjN7WVI1cGFr0'
       TenantID: 'FranklinBank'
       EntitlementPreference: '2'
-      PurchaseEntitlements: true
-      PreferRemediation: true
+      PurchaseEntitlements: false
+      PreferRemediation: false
