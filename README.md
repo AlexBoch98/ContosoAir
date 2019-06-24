@@ -1,5 +1,3 @@
-## Badge
-
 [![Build Status](https://dev.azure.com/MF-Eric/Contoso%20Air/_apis/build/status/ericmicrofocus.ContosoAir?branchName=master)](https://dev.azure.com/MF-Eric/Contoso%20Air/_build/latest?definitionId=4&branchName=master)
 
 # Microsoft.Github CI Demo
