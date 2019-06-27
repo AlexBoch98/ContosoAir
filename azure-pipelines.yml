@@ -34,8 +34,7 @@ steps:
       TargetFolder: $(build.artifactstagingdirectory)/Templates
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifact: drop'
-  - script: npm install webpack webpack-cli --save-dev
-      npx webpack --config webpack.config.js
+  - script: webpack
   - task: FortifyOnDemandStatic@3
     inputs:
       FortifyProjects: 'https://github.com/ericmicrofocus/ContosoAir.git'
