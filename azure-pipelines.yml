@@ -36,7 +36,7 @@ steps:
     displayName: 'Publish Artifact: drop'
   - task: FortifyOnDemandStatic@3
     inputs:
-      FortifyProjects: $(build.artifactstagingdirectory)/Templates
+      FortifyProjects: $(build.artifactstagingdirectory)
       BSIToken: 'eyJ0ZW5hbnRJZCI6NjgsInRlbmFudENvZGUiOiJGcmFua2xpbkJhbmsiLCJyZWxlYXNlSWQiOjIxMTMyOCwicGF5bG9hZFR5cGUiOiJBTkFMWVNJU19QQVlMT0FEIiwiYXNzZXNzbWVudFR5cGVJZCI6Mjc0LCJ0ZWNobm9sb2d5VHlwZSI6IkpTL1RTL0hUTUwiLCJ0ZWNobm9sb2d5VHlwZUlkIjoxNiwidGVjaG5vbG9neVZlcnNpb24iOm51bGwsInRlY2hub2xvZ3lWZXJzaW9uSWQiOm51bGwsImF1ZGl0UHJlZmVyZW5jZSI6IkF1dG9tYXRlZCIsImF1ZGl0UHJlZmVyZW5jZUlkIjoyLCJpbmNsdWRlVGhpcmRQYXJ0eSI6ZmFsc2UsImluY2x1ZGVPcGVuU291cmNlQW5hbHlzaXMiOnRydWUsInBvcnRhbFVyaSI6Imh0dHBzOi8vYW1zLmZvcnRpZnkuY29tIiwiYXBpVXJpIjoiaHR0cHM6Ly9hcGkuYW1zLmZvcnRpZnkuY29tIiwic2NhblByZWZlcmVuY2UiOiJTdGFuZGFyZCIsInNjYW5QcmVmZXJlbmNlSWQiOjF9'
       APIAuthenticationType: '2'
       Username: 'eric_security_lead'
