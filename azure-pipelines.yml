@@ -34,7 +34,7 @@ steps:
       TargetFolder: $(build.artifactstagingdirectory)/Templates
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifact: drop'
-  - task: FortifyOnDemandStatic@3\
+  - task: FortifyOnDemandStatic@3
   - task: UniversalPackages@0
     displayName: 'Packaging'
     inputs:
