@@ -34,7 +34,7 @@ steps:
       TargetFolder: $(build.artifactstagingdirectory)/Templates
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifact: drop'
-    script: npm run compile
+  - script: tsc --target ES6 --strict true --project tsconfigs/production.json
   - task: FortifyOnDemandStatic@3
     inputs:
       FortifyProjects: 'https://github.com/ericmicrofocus/ContosoAir.git'
