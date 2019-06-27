@@ -1,7 +1,9 @@
 const express = require('express');
 const moment = require('moment');
 
-const { secured } = require('./helpers');
+const {
+  secured
+} = require('./helpers');
 const navbarService = require('../services').NavbarService();
 const dateService = require('../services').DateService();
 const flightsService = require('../services').FlightsService();
@@ -13,7 +15,13 @@ const fromFlightPicker = 'fromFlight';
 const toFlightPicker = 'toFlight';
 
 router.get('/', secured, function (req, res, next) {
-  const { fromCode, toCode, dpa, dpb, passengers } = req.query;
+  const {
+    fromCode,
+    toCode,
+    dpa,
+    dpb,
+    passengers
+  } = req.query;
 
   const departureDate = moment(dpa);
   const returnDate = moment(dpb);
@@ -40,14 +48,26 @@ router.get('/', secured, function (req, res, next) {
         list: returningFlights
       }
     },
-    query: { fromCode, toCode, dpa, dpb, passengers }
+    query: {
+      fromCode,
+      toCode,
+      dpa,
+      dpb,
+      passengers
+    }
   }
 
   res.render('flights', vm);
 });
 
 router.post('/', secured, async function (req, res, next) {
-  const { passengers, fromCode, toCode, dpa, dpb } = req.body;
+  const {
+    passengers,
+    fromCode,
+    toCode,
+    dpa,
+    dpb
+  } = req.body;
   const depFlight = req.body[fromFlightPicker];
   const retFlight = req.body[toFlightPicker];
 
