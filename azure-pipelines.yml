@@ -44,4 +44,4 @@ steps:
       TenantID: 'SI1'
       EntitlementPreference: '2'
       PurchaseEntitlements: false
-      PreferRemediation: false
+      PreferRemediation: true
