@@ -1,4 +1,13 @@
 # Node.js
+- task: FortifyOnDemandStatic@3
+  inputs:
+    FortifyProjects: 'https://github.com/ericmicrofocus/ContosoAir.git'
+    BSIToken: 'eyJ0ZW5hbnRJZCI6MTg5NiwidGVuYW50Q29kZSI6IlNJMSIsInJlbGVhc2VJZCI6MjEyODE0LCJwYXlsb2FkVHlwZSI6IkFOQUxZU0lTX1BBWUxPQUQiLCJhc3Nlc3NtZW50VHlwZUlkIjoyNzQsInRlY2hub2xvZ3lUeXBlIjoiSlMvVFMvSFRNTCIsInRlY2hub2xvZ3lUeXBlSWQiOjE2LCJ0ZWNobm9sb2d5VmVyc2lvbiI6bnVsbCwidGVjaG5vbG9neVZlcnNpb25JZCI6bnVsbCwiYXVkaXRQcmVmZXJlbmNlIjoiQXV0b21hdGVkIiwiYXVkaXRQcmVmZXJlbmNlSWQiOjIsImluY2x1ZGVUaGlyZFBhcnR5IjpmYWxzZSwiaW5jbHVkZU9wZW5Tb3VyY2VBbmFseXNpcyI6ZmFsc2UsInBvcnRhbFVyaSI6Imh0dHBzOi8vYW1zLmZvcnRpZnkuY29tIiwiYXBpVXJpIjoiaHR0cHM6Ly9hcGkuYW1zLmZvcnRpZnkuY29tIiwic2NhblByZWZlcmVuY2UiOiJTdGFuZGFyZCIsInNjYW5QcmVmZXJlbmNlSWQiOjF9'
+    APIAuthenticationType: '2'
+    Username: 't.stark'
+    PersonalAccessTokenSecret: 'OSRaYnA-aFgod2lzTHdlanZQYzlqb3NpWjBvMDJh0'
+    TenantID: 'SI1'
+    EntitlementPreference: '2'
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
