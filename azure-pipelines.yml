@@ -42,7 +42,7 @@ steps:
       Username: 't.stark.'
       PersonalAccessTokenSecret: 'MHFQQFoyaGc2SHluYk8vSGddTktZWjJ4RTRzSXJq0'
       TenantID: 'SI1'
-      EntitlementPreference: '1'
+      EntitlementPreference: '0'
       InProgressScanActionType: '1'
       RemediationScanPreference: '0'
       PolicyFailAction: '1'
