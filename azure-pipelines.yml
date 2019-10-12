@@ -44,6 +44,6 @@ steps:
       TenantID: 'SI1'
       EntitlementPreference: '1'
       PurchaseEntitlements: false
-      InProgressScanActionType: '1'
+      InProgressScanActionType: '0'
       RemediationScanPreference: '0'
       PolicyFailAction: '0'
