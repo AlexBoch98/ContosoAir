@@ -37,11 +37,11 @@ steps:
   - task: FortifyOnDemandStatic@5
     inputs:
       FortifyProjects: '$(build.artifactstagingdirectory)'
-      BSIToken: 'eyJ0ZW5hbnRJZCI6MTg5NiwidGVuYW50Q29kZSI6IlNJMSIsInJlbGVhc2VJZCI6MjI0Mjc4LCJwYXlsb2FkVHlwZSI6IkFOQUxZU0lTX1BBWUxPQUQiLCJhc3Nlc3NtZW50VHlwZUlkIjoyNzQsInRlY2hub2xvZ3lUeXBlIjoiSlMvVFMvSFRNTCIsInRlY2hub2xvZ3lUeXBlSWQiOjE2LCJ0ZWNobm9sb2d5VmVyc2lvbiI6bnVsbCwidGVjaG5vbG9neVZlcnNpb25JZCI6bnVsbCwiYXVkaXRQcmVmZXJlbmNlIjoiQXV0b21hdGVkIiwiYXVkaXRQcmVmZXJlbmNlSWQiOjIsImluY2x1ZGVUaGlyZFBhcnR5IjpmYWxzZSwiaW5jbHVkZU9wZW5Tb3VyY2VBbmFseXNpcyI6ZmFsc2UsInBvcnRhbFVyaSI6Imh0dHBzOi8vYW1zLmZvcnRpZnkuY29tIiwiYXBpVXJpIjoiaHR0cHM6Ly9hcGkuYW1zLmZvcnRpZnkuY29tIiwic2NhblByZWZlcmVuY2UiOiJTdGFuZGFyZCIsInNjYW5QcmVmZXJlbmNlSWQiOjF9'
+      BSIToken: 'eyJ0ZW5hbnRJZCI6NSwidGVuYW50Q29kZSI6InR0MSIsInJlbGVhc2VJZCI6MTU5NjAsInBheWxvYWRUeXBlIjoiQU5BTFlTSVNfUEFZTE9BRCIsImFzc2Vzc21lbnRUeXBlSWQiOjExOSwidGVjaG5vbG9neVR5cGUiOiJKUy9UUy9IVE1MIiwidGVjaG5vbG9neVR5cGVJZCI6MTYsInRlY2hub2xvZ3lWZXJzaW9uIjpudWxsLCJ0ZWNobm9sb2d5VmVyc2lvbklkIjpudWxsLCJhdWRpdFByZWZlcmVuY2UiOiJBdXRvbWF0ZWQiLCJhdWRpdFByZWZlcmVuY2VJZCI6MiwiaW5jbHVkZVRoaXJkUGFydHkiOmZhbHNlLCJpbmNsdWRlT3BlblNvdXJjZUFuYWx5c2lzIjpmYWxzZSwicG9ydGFsVXJpIjoiaHR0cHM6Ly9mb2RxYTktdGVuYW50LmZvcnRpZnlmb2RxYTkubG9jYWwiLCJhcGlVcmkiOiJodHRwOi8vMTYuMTAzLjIzNC4yMzciLCJzY2FuUHJlZmVyZW5jZSI6IlN0YW5kYXJkIiwic2NhblByZWZlcmVuY2VJZCI6MX0='
       APIAuthenticationType: '2'
-      Username: 't.stark'
-      PersonalAccessTokenSecret: 'MHFQQFoyaGc2SHluYk8vSGddTktZWjJ4RTRzSXJq0'
-      TenantID: 'SI1'
+      Username: 'eric_security_lead'
+      PersonalAccessTokenSecret: 'S0EjXUV0ImxvaFN2aDBVY0dOWmh5algyMHJ2MFUw0'
+      TenantID: 'TT1'
       EntitlementPreference: '1'
       PurchaseEntitlements: false
       InProgressScanActionType: '0'
