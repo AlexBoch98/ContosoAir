@@ -21,7 +21,7 @@ steps:
   displayName: 'npm install and build'
 - task: FortifyOnDemandStatic@5
   inputs:
-    FortifyProjects: '(build.artifactstagingdirectory)'
+    FortifyProjects: 'build.artifactstagingdirectory'
     BSIToken: 'eyJ0ZW5hbnRJZCI6MTIzNiwidGVuYW50Q29kZSI6IlByZXN0aWdlIiwicmVsZWFzZUlkIjoyMjgyNjEsInBheWxvYWRUeXBlIjoiQU5BTFlTSVNfUEFZTE9BRCIsImFzc2Vzc21lbnRUeXBlSWQiOjI3NCwidGVjaG5vbG9neVR5cGUiOiJKUy9UUy9IVE1MIiwidGVjaG5vbG9neVR5cGVJZCI6MTYsInRlY2hub2xvZ3lWZXJzaW9uIjpudWxsLCJ0ZWNobm9sb2d5VmVyc2lvbklkIjpudWxsLCJhdWRpdFByZWZlcmVuY2UiOiJBdXRvbWF0ZWQiLCJhdWRpdFByZWZlcmVuY2VJZCI6MiwiaW5jbHVkZVRoaXJkUGFydHkiOmZhbHNlLCJpbmNsdWRlT3BlblNvdXJjZUFuYWx5c2lzIjp0cnVlLCJwb3J0YWxVcmkiOiJodHRwczovL2Ftcy5mb3J0aWZ5LmNvbSIsImFwaVVyaSI6Imh0dHBzOi8vYXBpLmFtcy5mb3J0aWZ5LmNvbSIsInNjYW5QcmVmZXJlbmNlIjoiU3RhbmRhcmQiLCJzY2FuUHJlZmVyZW5jZUlkIjoxfQ=='
     APIAuthenticationType: '2'
     Username: 'eric_prestige'
