@@ -30,5 +30,5 @@ steps:
     TenantID: 'SI1'
     EntitlementPreference: '1'
     InProgressScanActionType: '1'
-    RemediationScanPreference: '0'
+    RemediationScanPreference: '2'
     PolicyFailAction: '0'
